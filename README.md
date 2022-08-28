@@ -94,10 +94,14 @@ Com o comando git log, você pode visualizar o que vem sendo feito em uma determ
 
 `git log--oneline`
 
-<img src = 'https://www.cloudsavvyit.com/p/uploads/2021/08/963731e4.png?trim=1,1&bg-color=000&pad=1,1'>
+<img src = 'https://www.cloudsavvyit.com/p/uploads/2021/08/963731e4.png?trim=1,1&bg-color=000&pad=1,1'> 
 
-<!-- ## 8 Git revert
+Em amarelo temos o código hash ao lado do commit.
+
+ ## 8 Git revert
 
 Umas das maneiras de alterações em nosso espaço de trabalho local ou remotamente. Uma maneira segura de desfazer nossos commits é usando git revert
 
-`` -->
+`git revert <name hash>`
+Precisamos apenas especificar o código hash ao lado do commit que desejamos desfazer:
+

@@ -73,3 +73,17 @@ Para fazer o  push  da nova branch para o repositório remoto, você precisa usa
 `git branch -d <nome-da-branch>`
 
 
+## 3 Git checkout
+
+Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra. Também podemos usar o comando para fazer o checkout de arquivos e commits.
+
+`git checkout <nome-da-branch>`
+
+Passos que você precisa seguir para trocar de branch com sucesso:
+
+<ul>
+<li>As alterações em sua branch atual devem estar em um commit ou em um stash antes de você fazer a troca</li>
+
+<li>A branch na qual você quer fazer o checkout deve existir no seu espaço de trabalho local
+<li>
+<ul>

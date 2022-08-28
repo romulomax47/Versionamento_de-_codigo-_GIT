@@ -83,7 +83,7 @@ Passos que você precisa seguir para trocar de branch com sucesso:
 
 <ul>
 
-<li>As alterações em sua branch atual devem estar em um commit ou em um stash antes de você fazer a troca</li>git
+<li>As alterações em sua branch atual devem estar em um commit ou em um stash antes de você fazer a troca</li>
 <li>A branch na qual você quer fazer o checkout deve existir no seu espaço de trabalho local
 <li>
 

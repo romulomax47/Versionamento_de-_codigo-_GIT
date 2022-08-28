@@ -33,10 +33,7 @@ O comando git add adiciona uma alteração no diretório ativo à área de stagi
 
 `git add .`
 
-### 
-
-`git branch -d <nome-da-branch>`
-
+<img src = 'https://lh3.googleusercontent.com/09H2vyZqfHKuW6F0O3Omy5XwoqBuQh7P_74Pdn5HnYCTwFiOXtTf7S8BjBlyVpqicT1MHWkSoRgSwCxvpdPhBCj2kPZk-6_z9Alq0cclrO5UbZBauSx7--8215IfnR5k5RidY67K'>
 ## 3. Git checkout
 
 Esse também é um dos comandos do Git mais usados. Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra.

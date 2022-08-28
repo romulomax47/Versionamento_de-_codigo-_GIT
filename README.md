@@ -94,7 +94,7 @@ Com o comando git log, você pode visualizar o que vem sendo feito em uma determ
 
 `git log--oneline`
 
-<!-- <img src = 'https://www.cloudsavvyit.com/p/uploads/2021/08/963731e4.png?trim=1,1&bg-color=000&pad=1,1'> -->
+<img src = 'https://www.cloudsavvyit.com/p/uploads/2021/08/963731e4.png?trim=1,1&bg-color=000&pad=1,1'>
 
 ## 8 Git revert
 

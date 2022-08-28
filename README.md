@@ -43,6 +43,8 @@ Git commit é como definir um ponto de verificação no processo de desenvolvime
 
 `git commit -m "mensagem do commit"`
 
+
+
 ## 4 Git push
 
 Git push faz o upload dos seus commits no repositório remoto.
@@ -73,7 +75,7 @@ Para fazer o  push  da nova branch para o repositório remoto, você precisa usa
 `git branch -d <nome-da-branch>`
 
 
-## 3 Git checkout
+## 6 Git checkout
 
 Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra. Também podemos usar o comando para fazer o checkout de arquivos e commits.
 
@@ -85,6 +87,18 @@ Passos que você precisa seguir para trocar de branch com sucesso:
 
 <li>As alterações em sua branch atual devem estar em um commit ou em um stash antes de você fazer a troca</li>
 <li>A branch na qual você quer fazer o checkout deve existir no seu espaço de trabalho local
+<ul>
 
+## 7 Git log
 
-<ul>    
+Com o comando git log, você pode visualizar o que vem sendo feito em uma determinada branch ou avaliar as alterações de um arquivo em especial.
+
+`git log--oneline`
+
+<img src = 'https://www.cloudsavvyit.com/p/uploads/2021/08/963731e4.png?trim=1,1&bg-color=000&pad=1,1'>
+
+## 8 Git revert
+
+Umas das maneiras de alterações em nosso espaço de trabalho local ou remotamente. Uma maneira segura de desfazer nossos commits é usando git revert
+
+``

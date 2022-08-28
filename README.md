@@ -92,7 +92,7 @@ Passos que você precisa seguir para trocar de branch com sucesso:
 
 Com o comando git log, você pode visualizar o que vem sendo feito em uma determinada branch ou avaliar as alterações de um arquivo em especial.
 
-`git log--oneline`
+`git log --oneline`
 
 <img src = 'https://www.cloudsavvyit.com/p/uploads/2021/08/963731e4.png?trim=1,1&bg-color=000&pad=1,1'> 
 
@@ -103,5 +103,6 @@ Em amarelo temos o código hash ao lado do commit.
 Umas das maneiras de alterações em nosso espaço de trabalho local ou remotamente. Uma maneira segura de desfazer nossos commits é usando git revert
 
 `git revert <name hash>`
+
 Precisamos apenas especificar o código hash ao lado do commit que desejamos desfazer:
 

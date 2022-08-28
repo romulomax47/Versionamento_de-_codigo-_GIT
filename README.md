@@ -13,6 +13,14 @@ O comando git status nos dá todas as informações necessárias sobre a branch 
 
 <img src ='https://cdn1.gnarususercontent.com.br/1/796210/6f40f47b-8443-4be9-8435-21ba33853d2a.png'>
 
+Git status nos dá informações sobre a branch e os arquivos
+<ul>
+    <li>Se os arquivos estão em fase de stage, fora dessa fase ou se não estão sendo rastreados</li>
+    <li>Se arquivos foram criados, modificados ou excluídos</li>
+    <li>Se a branch em que estamos no momento está atualizada</li>
+    <li>Se precisamos fazer o commit, push ou pull de algo</li>
+</ul>
+
 ## 2 Git add
 
 O comando git add adiciona uma alteração no diretório ativo à área de staging

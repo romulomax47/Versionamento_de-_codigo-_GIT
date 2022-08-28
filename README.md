@@ -37,13 +37,13 @@ O comando git add adiciona uma alteração no diretório ativo à área de stagi
 
 Os arquivos em verde agora estão em fase de stage com o git add
 
-## 3. Git commit
+## 3 Git commit
 
 Git commit é como definir um ponto de verificação no processo de desenvolvimento. Você pode voltar a esse ponto mais tarde, se necessário.
 
 `git commit -m "mensagem do commit"`
 
-## 4. Git push
+## 4 Git push
 
 Git push faz o upload dos seus commits no repositório remoto.
 
@@ -52,5 +52,24 @@ Git push faz o upload dos seus commits no repositório remoto.
 Se a sua branch foi recém-criada, também é preciso fazer o upload da branch com o seguinte comando:
 
 `git push -u origin <nome-da-branch>`
+
+## 5 Git branch
+
+O comando git branch permite criar, listar, renomear e excluir ramificações.
+
+<img src ='https://lh5.googleusercontent.com/ByJxAPDtlT6I3uHFZeoXRiYwyrVkdIY6Iho8chNGp4DL9Ke8snH9SKCYs10G0bWf-xc_DMgcRIpvrQw0LbQ809tdpi6SBx7lyQ2W6ZRI5EhUFO4jkVLPw3SuAxoGik97qWYg_Kmm'>
+
+### Como criar uma branch:
+`git branch <nome-da-branch>`
+
+Para fazer o  push  da nova branch para o repositório remoto, você precisa usar o comando a seguir:
+
+`git push -u <local-remoto> <nome-da-branch>`
+
+### Como ver as branches:
+`git branch ou git branch --list`
+
+### Como excluir uma branch:
+`git branch -d <nome-da-branch>`
 
 

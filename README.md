@@ -5,26 +5,34 @@
 O Git é uma parte importante da programação no dia a dia.
 Como existem muitos comandos que você pode utilizar, dominar o Git por completo leva tempo.
 
-## 1 Git clone
+## 1 Git status
 
-Git clone é uma comando para baixar o código-fonte existente de um repositório remoto 
+O comando git status nos dá todas as informações necessárias sobre a branch atual.
 
-`git clone <https://link-com-o-nome-do-repositório>`
+`git status`
 
-## 2 Git branch
+<img src ='https://cdn1.gnarususercontent.com.br/1/796210/6f40f47b-8443-4be9-8435-21ba33853d2a.png'>
 
-Branches (algo como ramificações, em português) são altamente importantes no mundo do git. Usando as branches, vários desenvolvedores conseguem trabalhar em paralelo no mesmo projeto simultaneamente.
+## 2 Git add
 
-### Criando uma branch:
+O comando git add adiciona uma alteração no diretório ativo à área de staging
 
-`git branch <nome-da-branch>`
+### Para adicionar um único arquivo:
 
-### Como ver as branches:
+`git add <arquivo>`
 
-`git branch ou git branch --list`
+### Para adicionar tudo ao mesmo tempo::
 
-### Como excluir uma branch:
+`git add .`
+
+### 
 
 `git branch -d <nome-da-branch>`
+
+## 3. Git checkout
+
+Esse também é um dos comandos do Git mais usados. Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra.
+
+`git checkout <nome-da-branch>`
 
 

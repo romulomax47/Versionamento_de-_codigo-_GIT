@@ -34,10 +34,23 @@ O comando git add adiciona uma alteração no diretório ativo à área de stagi
 `git add .`
 
 <img src = 'https://lh3.googleusercontent.com/09H2vyZqfHKuW6F0O3Omy5XwoqBuQh7P_74Pdn5HnYCTwFiOXtTf7S8BjBlyVpqicT1MHWkSoRgSwCxvpdPhBCj2kPZk-6_z9Alq0cclrO5UbZBauSx7--8215IfnR5k5RidY67K'>
-## 3. Git checkout
 
-Esse também é um dos comandos do Git mais usados. Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra.
+Os arquivos em verde agora estão em fase de stage com o git add
 
-`git checkout <nome-da-branch>`
+## 3. Git commit
+
+Git commit é como definir um ponto de verificação no processo de desenvolvimento. Você pode voltar a esse ponto mais tarde, se necessário.
+
+`git commit -m "mensagem do commit"`
+
+## 4. Git push
+
+Git push faz o upload dos seus commits no repositório remoto.
+
+`git push <repositório-remoto> <nome-da-branch>`
+
+Se a sua branch foi recém-criada, também é preciso fazer o upload da branch com o seguinte comando:
+
+`git push -u origin <nome-da-branch>`
 
 

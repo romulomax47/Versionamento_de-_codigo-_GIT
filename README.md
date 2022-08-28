@@ -1,6 +1,6 @@
 ## Como usar o Git
 
-<img src = "https://i1.wp.com/www.markus-gattol.name/misc/mm/si/content/git_git_add.png">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png">
 
 ## Instalando o GIT
 

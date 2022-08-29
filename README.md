@@ -88,7 +88,14 @@ Passos que você precisa seguir para trocar de branch com sucesso:
     <li>A branch na qual você quer fazer o checkout deve existir no seu espaço de trabalho local</li>
 <ul>
 
-## 7 Git log
+## 7 Git pull
+
+O comando git pull é usado para buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais.
+
+`git pull <repositório-remoto>`
+
+
+## 8 Git log
 
 Com o comando git log, você pode visualizar o que vem sendo feito em uma determinada branch ou avaliar as alterações de um arquivo em especial.
 
@@ -98,11 +105,14 @@ Com o comando git log, você pode visualizar o que vem sendo feito em uma determ
 
 Em amarelo temos o código hash ao lado do commit.
 
- ## 8 Git revert
+ ## 9 Git revert
 
 Umas das maneiras de alterações em nosso espaço de trabalho local ou remotamente. Uma maneira segura de desfazer nossos commits é usando git revert
 
 `git revert <name hash>`
 
 Precisamos apenas especificar o código hash ao lado do commit que desejamos desfazer:
+
+## Para  reverter especificamente o último commit podemos usar também:
+`git revert HEAD`
 

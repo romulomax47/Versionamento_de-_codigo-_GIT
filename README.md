@@ -1,4 +1,4 @@
-# 9 comandos do Git que todo desenvolvedor deveria conhecer
+# 10 Comandos do Git que todo desenvolvedor deveria conhecer
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png">
 
@@ -105,7 +105,12 @@ Com o comando git log, você pode visualizar o que vem sendo feito em uma determ
 
 Em amarelo temos o código hash ao lado do commit.
 
- ## 9 Git revert
+## 9 Git Clone
+O git clone, basicamente, faz uma cópia idêntica da versão mais recente de um projeto em um repositório e a salva em seu computador.
+
+`git clone <https://link-com-o-nome-do-repositório>`
+
+## 10 Git revert
 
 Umas das maneiras de alterações em nosso espaço de trabalho local ou remotamente. Uma maneira segura de desfazer nossos commits é usando git revert
 

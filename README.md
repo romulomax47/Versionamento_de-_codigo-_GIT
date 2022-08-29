@@ -1,4 +1,4 @@
-## 10 comandos do Git que todo desenvolvedor deveria conhecer
+# 9 comandos do Git que todo desenvolvedor deveria conhecer
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png">
 
@@ -113,6 +113,5 @@ Umas das maneiras de alterações em nosso espaço de trabalho local ou remotame
 
 Precisamos apenas especificar o código hash ao lado do commit que desejamos desfazer:
 
-## Para  reverter especificamente o último commit podemos usar também:
+### Para  reverter especificamente o último commit podemos usar também:
 `git revert HEAD`
-

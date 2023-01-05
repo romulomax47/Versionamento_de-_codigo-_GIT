@@ -75,10 +75,8 @@ Para fazer o  push  da nova branch para o repositório remoto, você precisa usa
 ### Como trabalhar apartir da branch criada:
 `git checkout nomeDaBranch`
 
-
 ### Como excluir uma branch:
 `git branch -d <nome-da-branch>`
-
 
 ## 6 Git checkout
 

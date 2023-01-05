@@ -1,6 +1,6 @@
 # 10 Comandos do Git que todo desenvolvedor deveria conhecer
 
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png">
+<!-- <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png"> -->
 
 O Git é uma parte importante da programação no dia a dia.
 Como existem muitos comandos que você pode utilizar, dominar o Git por completo leva tempo.
@@ -67,9 +67,14 @@ O comando git branch permite criar, listar, renomear e excluir ramificações.
 Para fazer o  push  da nova branch para o repositório remoto, você precisa usar o comando a seguir:
 
 `git push -u <local-remoto> <nome-da-branch>`
+<br>
 
 ### Como ver as branches:
 `git branch ou git branch --list`
+
+### Como trabalhar apartir da branch criada:
+`git checkout nomeDaBranch`
+
 
 ### Como excluir uma branch:
 `git branch -d <nome-da-branch>`
@@ -79,14 +84,12 @@ Para fazer o  push  da nova branch para o repositório remoto, você precisa usa
 
 Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra. Também podemos usar o comando para fazer o checkout de arquivos e commits.
 
-`git checkout <nome-da-branch>`
-
 Passos que você precisa seguir para trocar de branch com sucesso:
 
-<ul>
-    <li>As alterações em sua branch atual devem estar em um commit ou em um stash antes de você fazer a troca</li>
-    <li>A branch na qual você quer fazer o checkout deve existir no seu espaço de trabalho local</li>
-<ul>
+
+- As alterações em sua branch atual devem estar em um commit ou em um stash antes de você fazer a troca
+- A branch na qual você quer fazer o checkout deve existir no seu espaço de trabalho local
+
 
 ## 7 Git pull
 

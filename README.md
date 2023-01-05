@@ -81,6 +81,9 @@ Para fazer o  push  da nova branch para o repositório remoto, você precisa usa
 ### Como excluir uma branch:
 `git branch -d <nome-da-branch>`
 
+### Como expluir uma branch remota:
+`git push origin --delete nome_branch`
+
 ## 6 Git checkout
 
 Para trabalhar em uma branch, primeiro, é preciso "entrar" nela. Usamos git checkout, na maioria dos casos, para trocar de uma branch para outra. Também podemos usar o comando para fazer o checkout de arquivos e commits.

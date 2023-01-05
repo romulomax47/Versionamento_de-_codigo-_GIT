@@ -1,6 +1,6 @@
 # 10 Comandos do Git que todo desenvolvedor deveria conhecer
 
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png">
+<!-- <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png"> -->
 
 O Git é uma parte importante da programação no dia a dia.
 Como existem muitos comandos que você pode utilizar, dominar o Git por completo leva tempo.

@@ -65,7 +65,7 @@ O comando git branch permite criar, listar, renomear e excluir ramificações.
 `git branch <nome-da-branch>`
 
 Para fazer o  push  da nova branch para o repositório remoto, você precisa usar o comando a seguir:
-
+<br>
 `git push -u <local-remoto> <nome-da-branch>`
 
 ### Como ver as branches:
